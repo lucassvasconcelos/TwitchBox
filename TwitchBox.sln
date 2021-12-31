@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{88AC26C8-3BF7-4468-A1EC-F64B6FB128A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchBox", "src\TwitchBox\TwitchBox.csproj", "{71981BF6-0980-49A7-962D-A09D5AD0604E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchBox.Commands", "src\TwitchBox.Commands\TwitchBox.Commands.csproj", "{D1230311-F662-470F-AFC0-FEC0BB324656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitchBox.Commands.Abstractions", "src\TwitchBox.Commands.Abstractions\TwitchBox.Commands.Abstractions.csproj", "{8BF72494-49CB-489A-8434-4A84F7CDC50B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71981BF6-0980-49A7-962D-A09D5AD0604E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71981BF6-0980-49A7-962D-A09D5AD0604E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71981BF6-0980-49A7-962D-A09D5AD0604E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71981BF6-0980-49A7-962D-A09D5AD0604E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1230311-F662-470F-AFC0-FEC0BB324656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1230311-F662-470F-AFC0-FEC0BB324656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1230311-F662-470F-AFC0-FEC0BB324656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1230311-F662-470F-AFC0-FEC0BB324656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BF72494-49CB-489A-8434-4A84F7CDC50B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF72494-49CB-489A-8434-4A84F7CDC50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF72494-49CB-489A-8434-4A84F7CDC50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF72494-49CB-489A-8434-4A84F7CDC50B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71981BF6-0980-49A7-962D-A09D5AD0604E} = {88AC26C8-3BF7-4468-A1EC-F64B6FB128A8}
+		{D1230311-F662-470F-AFC0-FEC0BB324656} = {88AC26C8-3BF7-4468-A1EC-F64B6FB128A8}
+		{8BF72494-49CB-489A-8434-4A84F7CDC50B} = {88AC26C8-3BF7-4468-A1EC-F64B6FB128A8}
+	EndGlobalSection
+EndGlobal
